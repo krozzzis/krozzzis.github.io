@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.disp_formula { display: block; text-align: center; margin: 1em 0; }
+.formula { vertical-align: middle; display: inline-block; }
+.razr { text-spacing: 3px; }
+.figure { display: block; margin: 12pt auto 12pt}
+figcaption { text-align: center; font-size: 90%; }
+em { font-weight: bold; font-style: normal; background: #eee; padding:2px; margin-right: 5px; }
+body { width: 17cm; margin: auto; }
+</style>
+</head>
+<body>
+
+
+<p><h2>Комбинаторика</h2></p>
+
+<p><strong>5.1 <b>Два правила комбинаторики.</b></strong> Предмет комбинаторики. Примеры решения комбинаторных задач: перебор вариантов, правило умножения. Поочередный и одновремен­ный выбор нескольких элементов из конечного множества.</p>
+
+<p><strong>5.2 <b>Перестановки, сочетания, размещения.</b></strong> Факториал. Формулы числа перестановок, сочетаний, размещений.</p>
+
+<p><strong>5.3 <b>.</b></strong> Би­ном Ньюто­на для натурального <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>n</mi></mrow></math>, комбинаторное доказательство. Свойства биноми­аль&shy;ных коэффициентов: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msubsup><mi>C</mi><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow><mi>k</mi></msubsup><mo>&#x0003D;</mo><msubsup><mi>C</mi><mi>n</mi><mi>k</mi></msubsup><mo>&#x0002B;</mo><msubsup><mi>C</mi><mi>n</mi><mrow><mi>k</mi><mo>&#x02212;</mo><mn>1</mn></mrow></msubsup></mrow></math>;
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msubsup><mi>C</mi><mi>n</mi><mi>k</mi></msubsup><mo>&#x0003D;</mo><msubsup><mi>C</mi><mi>n</mi><mrow><mi>n</mi><mo>&#x02212;</mo><mi>k</mi></mrow></msubsup></mrow></math>. Тре­уголь&shy;ник Паскаля.</p>
+
+<p><h2>Элементы теории вероятностей</h2></p>
+
+<p><strong>5.4 <b>Вероятностное пространство.</b></strong> Вероятностное пространство: современные определения (общее и дискретное).</p>
+
+<p>Дано непустое множество (или <i>про­странство</i>) элементарных событий (исходов) <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003A9;</mi></mrow></math> и отображение <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>P</mi><mi>&#x0003A;</mi><msup><mn>2</mn><mrow><mi>&#x003A9;</mi></mrow></msup><mo>&#x02192;</mo><mo stretchy="false">[</mo><mn>0</mn><mo>&#x0002C;</mo><mn>1</mn><mo stretchy="false">]</mo></mrow></math>, удовлетворяющее следующим аксиомам (<i>аксиомы Колмогорова</i>): 1)~<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>P</mi><mo stretchy="false">&#x00028;</mo><mi>&#x003A9;</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mn>1</mn></mrow></math>; 2)~аддитивность. Любое<s>На самом деле может быть и не совсем любое, а лишь подмножество, принадлежащее некоторому семейству подмножеств, называемому <i>сигма-алгеброй</i>. Поскольку множество всех подмножеств (булеан) <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003A9;</mi></mrow></math> является сигма-алгеброй, мы для простоты изложения рассматриваем частный случай, когда вероятностная мера определяется на всем булеане.</s> подмножество <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003A9;</mi></mrow></math> называется <i>событием</i>; функция <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>P</mi></mrow></math> — <i>вероятностной мерой</i>, значение <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>P</mi><mo stretchy="false">&#x00028;</mo><mi>A</mi><mo stretchy="false">&#x00029;</mo></mrow></math> — <i>вероятностью</i> события <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>A</mi></mrow></math>.</p>
+
+<p>Пустое множество называется <i>невозможным</i> событием, всё <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003A9;</mi></mrow></math> — <i>достоверным</i> событием, дополнение — <i>противо­положным</i> событием, непересекающиеся события называются <i>несовместными</i>. События, для которых <nobr><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>P</mi><mo stretchy="false">&#x00028;</mo><mi>A</mi><mo>&#x02229;</mo><mi>B</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mi>P</mi><mo stretchy="false">&#x00028;</mo><mi>A</mi><mo stretchy="false">&#x00029;</mo><mi>&#x000B7;</mi><mi>P</mi><mo stretchy="false">&#x00028;</mo><mi>B</mi><mo stretchy="false">&#x00029;</mo></mrow></math>,</nobr> называются <i>независимыми</i>. Пересе­чение событий называется их <i>произведением</i> (одновременным наступлением), объединение — <i>суммой</i>.</p>
+
+<p><i>Конечно-дискретное</i> определение применяется, если
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003A9;</mi><mo>&#x0003D;</mo><mo stretchy="false">&#x0007B;</mo><msub><mi>&#x003C9;</mi><mn>1</mn></msub><mo>&#x0002C;</mo><mi>&#x02026;</mi><mo>&#x0002C;</mo><msub><mi>&#x003C9;</mi><mi>n</mi></msub><mo stretchy="false">&#x0007D;</mo></mrow></math>, тогда ве­роятностную меру удобно определять как <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>P</mi><mi>&#x0003A;</mi><mi>&#x003A9;</mi><mo>&#x02192;</mo><mo stretchy="false">[</mo><mn>0</mn><mo>&#x0002C;</mo><mn>1</mn><mo stretchy="false">]</mo></mrow></math> с единственной аксиомой
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><munderover><mo>&#x02211;</mo><mrow><mi>i</mi><mo>&#x0003D;</mo><mn>1</mn></mrow><mi>n</mi></munderover><msub><mi>&#x003C9;</mi><mi>i</mi></msub><mo>&#x0003D;</mo><mn>1</mn></mrow></math>. Вероятность любого события определяется тогда как сумма вероятно­стей входящих в него элементарных событий.</p>
+
+<p><strong>5.5 <b>Классическое определение вероятности.</b></strong> Классическое определение вероятности. Статистическая частота на­ступления события. Геометрическая вероятность, пример с бросанием точки в квадрат.</p>
+
+<p><strong>5.6 <b>Сумма событий.</b></strong> Веро­ятность сум­мы событий (формула включений и исключений; доказать для двух событий). Вероятность проти­воположного события.</p>
+
+<p><strong>5.7 <b>Независимые события.</b></strong> Независимость событий. Пример с попаданием в мишень двух стрелков: два способа решения (по формуле включений и исключений или путем перехода к противоположным событиям:
+<span class="disp_formula"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>P</mi><mo stretchy="false">&#x00028;</mo><mi>A</mi><mo>&#x0222A;</mo><mi>B</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mn>1</mn><mo>&#x02212;</mo><mi>P</mi><mo stretchy="false">&#x00028;</mo><mover><mrow><mi>A</mi><mo>&#x0222A;</mo><mi>B</mi></mrow><mo accent="true">&#x02015;</mo></mover><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mn>1</mn><mo>&#x02212;</mo><mi>P</mi><mo stretchy="false">&#x00028;</mo><mover><mi>A</mi><mo stretchy="true">&#x000AF;</mo></mover><mo>&#x02229;</mo><mover><mi>B</mi><mo stretchy="true">&#x000AF;</mo></mover><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mn>1</mn><mo>&#x02212;</mo><mi>P</mi><mo stretchy="false">&#x00028;</mo><mover><mi>A</mi><mo stretchy="true">&#x000AF;</mo></mover><mo stretchy="false">&#x00029;</mo><mi>&#x000B7;</mi><mi>P</mi><mo stretchy="false">&#x00028;</mo><mover><mi>B</mi><mo stretchy="true">&#x000AF;</mo></mover><mo stretchy="false">&#x00029;</mo><mo>&#x0002E;</mo></mrow></math></p></p>
+
+<p><strong>5.8 <b>Условная вероятность.</b></strong> Пусть <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>P</mi><mo stretchy="false">&#x00028;</mo><mi>A</mi><mo stretchy="false">&#x0007C;</mo><mi>X</mi><mo stretchy="false">&#x00029;</mo></mrow></math> — вероятность наступления события <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>A</mi></mrow></math>, если событие <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>X</mi></mrow></math> точно наступило. Понятно, что нам необходимо как-то переопреде­лить вероятностную меру на множестве <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>X</mi><mo>&#x02282;</mo><mi>&#x003A9;</mi></mrow></math>, чтобы аксиомы продолжали выпол­няться. Очевидно, что для этого надо «старую» вероятность события <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>A</mi><mo>&#x02229;</mo><mi>X</mi></mrow></math> (в про­странстве <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003A9;</mi></mrow></math>) поделить на вероятность события <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>X</mi></mrow></math> в пространстве <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003A9;</mi></mrow></math>, т. е. поло­жить
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>P</mi><mo stretchy="false">&#x00028;</mo><mi>A</mi><mo stretchy="false">&#x0007C;</mo><mi>X</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><mi>P</mi><mo stretchy="false">&#x00028;</mo><mi>A</mi><mo>&#x02229;</mo><mi>X</mi><mo stretchy="false">&#x00029;</mo></mrow><mrow><mi>P</mi><mo stretchy="false">&#x00028;</mo><mi>X</mi><mo stretchy="false">&#x00029;</mo></mrow></mfrac></mstyle></mrow></math>. Отсюда получаем формулу условной вероятности: вероят­ность одновременного наступления событий <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>A</mi></mrow></math> и <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>X</mi></mrow></math> равна произведению вероятно­сти <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>X</mi></mrow></math> на вероятность <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>A</mi></mrow></math> при условии <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>X</mi></mrow></math>.</p>
+
+<p><i>Пример:</i> в физмате 20 мальчиков и 5 девочек, а в гумклассе — 20 девочек и 5 мальчиков. Вася Пупкин сначала кидает кубик для выбора класса (если выпада­ет 1 — идет в физмат, а если выпадает другая цифра — в гум), а потом наугад выбирает человека в классе. Какова вероятность того, что Вася Пупкин выберет гуманитарную девочку?</p>
+
+<p><strong>5.9 <b>Формула полной вероятности.</b></strong> Формула полной вероятности (без доказательства).</p>
+
+<p>Если <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003A9;</mi><mo>&#x0003D;</mo><munderover><mo>&#x022C3;</mo><mrow><mi>i</mi><mo>&#x0003D;</mo><mn>1</mn></mrow><mi>n</mi></munderover><msub><mi>X</mi><mi>i</mi></msub></mrow></math>, то
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>P</mi><mo stretchy="false">&#x00028;</mo><mi>A</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><munderover><mo>&#x02211;</mo><mrow><mi>i</mi><mo>&#x0003D;</mo><mn>1</mn></mrow><mi>n</mi></munderover><mi>P</mi><mo stretchy="false">&#x00028;</mo><msub><mi>X</mi><mi>i</mi></msub><mo stretchy="false">&#x00029;</mo><mi>&#x000B7;</mi><mi>P</mi><mo stretchy="false">&#x00028;</mo><mi>A</mi><mo stretchy="false">&#x0007C;</mo><msub><mi>X</mi><mi>i</mi></msub><mo stretchy="false">&#x00029;</mo></mrow></math>.</p>
+
+<p><i>Пример:</i> Аня Пупкина с вероятностью <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>p</mi><mi>i</mi></msub></mrow></math> гуляет с <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>i</mi></mrow></math>-м мальчиком, а с вероятностью <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>q</mi><mi>i</mi></msub></mrow></math> выходит за него замуж (при условии, что она с ним гуляет), при этом Аня гуляет только с одним мальчиком. Какова вероят­ность, что Аня выйдет замуж?</p>
+
+<p><h2>Практика 1</h2></p>
+
+<p><h3>В классе (9 номеров)</h3></p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">178</em>Сколько различных четырехзначных чисел, делящихся на 4,     можно составить из цифр 1, 2, 3, 4, 5, если каждая цифра может встречаться в записи числа несколько раз?</p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">179</em>Сколькими способами можно посадить за круглый стол 7 мужчин и 7 женщин так, чтобы никакие две женщины не сидели рядом?
+<details><i>Ответ:</i> <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>2</mn><mi>&#x000B7;</mi><mo stretchy="false">&#x00028;</mo><mn>7</mn><mo>&#x00021;</mo><msup><mo stretchy="false">&#x00029;</mo><mn>2</mn></msup></mrow></math> или <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo stretchy="false">&#x00028;</mo><mn>7</mn><mo>&#x00021;</mo><msup><mo stretchy="false">&#x00029;</mo><mn>2</mn></msup><mo>&#x0002F;</mo><mn>7</mn></mrow></math> (в зависимости от трактовки условия).</details></p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">180</em>Надо послать <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>6</mn></mrow></math> срочных писем. Сколькими способами это можно сделать, если для передачи писем можно использовать трех курьеров и каждое письмо можно дать любому из них?
+<details><i>Ответ:</i> <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mn>3</mn><mn>6</mn></msup></mrow></math>.</details></p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">181</em>Сколько различных четырехзначных чисел можно составить из цифр 0, 1, 2, 3, 4, 5, 6, если каждая цифра может повторяться несколько раз?</p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">182</em>Каких чисел от 1 до <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mn>10</mn><mn>7</mn></msup></mrow></math> больше: тех, в записи которых встречается единица, или тех, в записи которых ее нет?
+<details><i>Ответ:</i> первых.</details></p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">183</em>Сколькими способами можно раздать колоду в 52 карты 13 игрокам по 4 карты каждому игроку?
+<details><i>Ответ:</i> <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><mn>52</mn><mo>&#x00021;</mo></mrow><mrow><mo stretchy="false">&#x00028;</mo><mn>4</mn><mo>&#x00021;</mo><msup><mo stretchy="false">&#x00029;</mo><mrow><mn>13</mn></mrow></msup></mrow></mfrac></mstyle></mrow></math>.</details></p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">184</em>Сколько различных слов (не обязательно осмысленных) можно получить, переставляя буквы в слове «парабола»?
+<details><i>Ответ:</i> <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><mn>8</mn><mo>&#x00021;</mo></mrow><mrow><mn>3</mn><mo>&#x00021;</mo></mrow></mfrac></mstyle></mrow></math>.</details></p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">185</em>Раскройте скобки: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo stretchy="false">&#x00028;</mo><mn>2</mn><mi>a</mi><mo>&#x02212;</mo><mi>b</mi><msup><mo stretchy="false">&#x00029;</mo><mn>5</mn></msup></mrow></math>.</p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">186</em>Раскройте скобки: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo stretchy="false">&#x00028;</mo><msup><mi>a</mi><mn>3</mn></msup><mi>b</mi><mo>&#x02212;</mo><mi>a</mi><msup><mi>b</mi><mn>2</mn></msup><msup><mo stretchy="false">&#x00029;</mo><mn>6</mn></msup></mrow></math>.</p>
+
+<p><h3>Дома (7 номеров)</h3></p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">187</em>Сколькими способами можно переставить буквы в слове «пастух» так, чтобы между двумя гласными были две согласные буквы?
+<details><i>Ответ:</i> 144.</details></p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">188</em>В купе железнодорожного вагона имеется два противоположных дивана по 5 мест в каждом. Из 10 пассажиров четверо желают сидеть лицом по ходу движения, а трое — спиной. Сколькими способами могут разместиться пассажиры?
+<details><i>Ответ:</i> <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>3</mn><mi>&#x000B7;</mi><mo stretchy="false">&#x00028;</mo><mn>5</mn><mo>&#x00021;</mo><msup><mo stretchy="false">&#x00029;</mo><mn>2</mn></msup></mrow></math>.</details></p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">189</em>Имеется 14 пар различных конфет. Найдите количество различных (в том числе и пустого) подарков, которые можно из них составить (учитывается только состав каждого подарка, порядок конфет в нем не важен).
+<details><i>Ответ:</i> <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mn>3</mn><mrow><mn>14</mn></mrow></msup></mrow></math>.</details></p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">190</em>Сколькими способами можно посадить рядом трех англичан, трех французов и трех турок так, чтобы никакие три соотечественника не сидели рядом?</p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">191</em>Сколькими способами можно разделить колоду из 36 карт пополам так, чтобы в каждой пачке было по 2 туза?
+<details><i>Ответ:</i> <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><mn>3</mn><mi>&#x000B7;</mi><mn>32</mn><mo>&#x00021;</mo></mrow><mrow><mo stretchy="false">&#x00028;</mo><mn>16</mn><mo>&#x00021;</mo><msup><mo stretchy="false">&#x00029;</mo><mn>2</mn></msup></mrow></mfrac></mstyle></mrow></math>.</details></p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">192</em>Раскройте скобки: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x02212;</mo><mn>3</mn><mi>y</mi><msup><mo stretchy="false">&#x00029;</mo><mn>4</mn></msup></mrow></math>.</p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">193</em>Раскройте скобки: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo stretchy="false">&#x00028;</mo><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><msup><mi>y</mi><mn>2</mn></msup><mo>&#x02212;</mo><msup><mi>x</mi><mn>2</mn></msup><mi>y</mi><msup><mo stretchy="false">&#x00029;</mo><mn>5</mn></msup></mrow></math>.</p>
+
+<p><h2>Практика 2</h2></p>
+
+<p><h3>В классе (11 номеров)</h3></p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">194</em>Из мешка с 33 жетонами, на которых написаны русские буквы, вытаскивают один за другим 4 жетона и выкладывают их слева направо на столе. Какова вероятность того, что получится слово «барс»? Как изменится ответ, если жетоны достают все вместе, после чего разрешается выкладывать их на стол в нужном нам порядке?
+<details><i>Указание.</i> Используйте формулы для числа размещений и числа сочетаний.</details></p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">195</em>Бросаются две игральные кости. Найдите вероятность того, что сумма выпавших очков будет больше их произведения.</p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">196</em>Из пяти отрезков с длинами 1, 3, 5, 7, 9 наудачу выбирают три. Какова вероятность того, что из них можно построить треугольник?
+<details><i>Ответ:</i> 0,3.</details></p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">197</em>Какова вероятность того, что в январе наудачу выбранного года окажется пять воскресений?
+<details><i>Ответ:</i> 3/7.</details></p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">198</em>В ящике лежат 12 белых и 8 черных носков, одинаковых на ощупь. Вася в полной темноте достает 8 носков, после чего включает свет. Какова вероятность того, что из вынутых им носков ровно три черных?</p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">199</em>Вася пришел на стадион. С вероятностью 0,3 он хочет купить билет на футбол, с вероятностью 0,4 — на баскетбол, с вероятностью 0,2 — на волейбол. Какова вероятность того, что Вася попадет на соревнование, а не уйдет домой?</p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">200</em>В условиях предыдущей задачи какова вероятность того, что Вася попадет на соревнование, в котором не запрещена игра ногой?
+<details><i>Указание.</i> В волейболе <b>не</b> запрещена игра ногой (по <a href="http://www.fivb.org/EN/Refereeing-Rules/documents/FIVB-Volleyball_Rules_2017-2020-RU-v01.pdf" target="_blank">правилам</a>, пункт 9.2.1, можно принимать мяч любой частью тела, при этом задерживать мяч запрещено).</details></p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">201</em>Бросили монету и игральную кость. Докажите, что события «выпал герб» и «выпало четное число очков» независимы.</p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">202</em>Три охотника одновременно стреляют в зайца. Заяц умирает, если в него попала хотя бы одна пуля. Первый охотник попадает с вероятностью 0,8, второй — 0,75, третий — 0,7. Найдите вероятность смерти зайца.
+<details><i>Ответ:</i> 0,985.</details></p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">203</em>В ящике лежит 12 красных, 8 зеленых и 10 синих носков, одинаковых на ощупь. Наудачу вынимается один носок. Известно, что он не синий. Какова вероятность того, что он красный?
+<details><i>Ответ:</i> 0,6.</details></p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">204</em>Три человека угадывают пол кошки, сидящей в меш­ке. Первый и второй угадывают правильный ответ с вероятностью <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>p</mi></mrow></math>, а третий просто бросает монетку. Затем они определяют пол кошки простым голосованием. Какова вероятность, что они угадают правильно?
+<details>Если первый и второй дали верный ответ (вероятность этого равна <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mi>p</mi><mn>2</mn></msup></mrow></math>), то мнение третьего не важно. Если первый дал неверный ответ, а второй верный, то ответ в целом будет верным, когда третий даст верный ответ; вероятность этого равна <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo stretchy="false">&#x00028;</mo><mn>1</mn><mi>–</mi><mi>p</mi><mo stretchy="false">&#x00029;</mo><mi>p</mi><mi>&#x000B7;</mi><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mo>&#x0002E;</mo></mrow></math> То же самое произойдет, если первый даст верный ответ, второй неверный, а третий — верный. Таким образом, вероятность верного ответа всего жюри составит <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mi>p</mi><mn>2</mn></msup><mo>&#x0002B;</mo><mn>2</mn><mo stretchy="false">&#x00028;</mo><mn>1</mn><mi>–</mi><mi>p</mi><mo stretchy="false">&#x00029;</mo><mi>p</mi><mi>&#x000B7;</mi><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mo>&#x0003D;</mo><mi>p</mi><mo>&#x0002E;</mo></mrow></math></details></p>
+
+<p><h3>Дома (8 номеров)</h3></p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">205</em>Что вероятнее при бросании двух монет — выпадение обеих «решек» или «орла» и «решки»?</p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">206</em>Бросили две монеты. Какова вероятность того, что на одной выпал «орел», а на другой «решка»?</p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">207</em>Куб, все грани которого окрашены, распилили на 1000 кубиков, после чего наудачу взяли один из них. Найдите вероятность того, что он имеет ровно две окрашенные грани.</p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">208</em>В ящике лежат 13 зеленых, 10 красных и 7 синих носков, одинаковых на ощупь. Наудачу вынимается 8 носков. Найдите вероятность того, что вынули 3 зеленых, 2 красных и 3 синих носка.
+<details><i>Ответ:</i> <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msubsup><mi>C</mi><mrow><mn>13</mn></mrow><mn>3</mn></msubsup><mi>&#x000B7;</mi><msubsup><mi>C</mi><mrow><mn>10</mn></mrow><mn>2</mn></msubsup><mi>&#x000B7;</mi><msubsup><mi>C</mi><mn>7</mn><mn>3</mn></msubsup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mi>:</mi><msubsup><mi>C</mi><mrow><mn>30</mn></mrow><mn>8</mn></msubsup></mrow></math>.</details></p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">209</em>Два станка работают независимо друг от друга. Вероятность поломки первого станка в течение одной смены равна 0,1, а второго — 0,2. Какова вероятность того, что в течение всей смены оба станка проработают без поломки?</p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">210</em>В условиях предыдущей задачи какова вероятность того, что оба станка сломаются?</p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">211</em>Машина состоит из <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>n</mi></mrow></math> блоков. Надежность (вероятность безотказной работы за данный промежуток времени) <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>k</mi></mrow></math>-го блока равна <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>p</mi><mi>k</mi></msub></mrow></math>. Блоки выходят из строя независимо друг от друга; при выходе из строя хотя бы одного блока машина дальше работать не может. Какова надежность всей машины?</p>
+
+<p><em style="font-weight: bold; font-style: normal; background: #eee; padding:2px;">212</em>По самолету производится три последовательных выстрела. Вероятность попадания при первом выстреле равна 0,5, при втором — 0,6, при третьем — 0,8. При одном попадании самолет сбивается с вероятностью 0,3, при двух попаданиях — с вероятностью 0,6, при трех попаданиях самолет сбивается наверняка. Какова вероятность сбить самолет?
+<details>Будем считать, что стрелкам с земли не видно, попали они или нет, сбили они самолет или нет: три последовательных выстрела производятся <i>в любом случае</i>, независимо от их результативности.</p>
+
+<p>Если по самолету было <i>только одно</i> попадание, то вероятность этого события равна, очевидно,<span class="disp_formula"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>0</mn><mo>&#x0002C;</mo><mn>5</mn><mi>&#x000B7;</mi><mn>0</mn><mo>&#x0002C;</mo><mn>4</mn><mi>&#x000B7;</mi><mn>0</mn><mo>&#x0002C;</mo><mn>2</mn><mo>&#x0002B;</mo><mn>0</mn><mo>&#x0002C;</mo><mn>5</mn><mi>&#x000B7;</mi><mn>0</mn><mo>&#x0002C;</mo><mn>6</mn><mi>&#x000B7;</mi><mn>0</mn><mo>&#x0002C;</mo><mn>2</mn><mo>&#x0002B;</mo><mn>0</mn><mo>&#x0002C;</mo><mn>5</mn><mi>&#x000B7;</mi><mn>0</mn><mo>&#x0002C;</mo><mn>4</mn><mi>&#x000B7;</mi><mn>0</mn><mo>&#x0002C;</mo><mn>8</mn><mo>&#x0003D;</mo><mn>0</mn><mo>&#x0002C;</mo><mn>26</mn><mo>&#x0002C;</mo></mrow></math></p> а вероятность сбить при этом самолет равна <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>0</mn><mo>&#x0002C;</mo><mn>26</mn><mi>&#x000B7;</mi><mn>0</mn><mo>&#x0002C;</mo><mn>3</mn><mo>&#x0003D;</mo><mn>0</mn><mo>&#x0002C;</mo><mn>078</mn><mo>&#x0002E;</mo></mrow></math></p>
+
+<p>Рассмотрим второй случай: по самолету было <i>ровно два</i> попадания. Вероятность этого равна
+<span class="disp_formula"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>0</mn><mo>&#x0002C;</mo><mn>5</mn><mi>&#x000B7;</mi><mn>0</mn><mo>&#x0002C;</mo><mn>6</mn><mi>&#x000B7;</mi><mn>0</mn><mo>&#x0002C;</mo><mn>2</mn><mo>&#x0002B;</mo><mn>0</mn><mo>&#x0002C;</mo><mn>5</mn><mi>&#x000B7;</mi><mn>0</mn><mo>&#x0002C;</mo><mn>4</mn><mi>&#x000B7;</mi><mn>0</mn><mo>&#x0002C;</mo><mn>8</mn><mo>&#x0002B;</mo><mn>0</mn><mo>&#x0002C;</mo><mn>5</mn><mi>&#x000B7;</mi><mn>0</mn><mo>&#x0002C;</mo><mn>6</mn><mi>&#x000B7;</mi><mn>0</mn><mo>&#x0002C;</mo><mn>8</mn><mo>&#x0003D;</mo><mn>0</mn><mo>&#x0002C;</mo><mn>46</mn><mo>&#x0002C;</mo></mrow></math></p> а вероятность сбить при этом самолет равна <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>0</mn><mo>&#x0002C;</mo><mn>46</mn><mi>&#x000B7;</mi><mn>0</mn><mo>&#x0002C;</mo><mn>6</mn><mo>&#x0003D;</mo><mn>0</mn><mo>&#x0002C;</mo><mn>276</mn><mo>&#x0002E;</mo></mrow></math></p>
+
+<p>Наконец, вероятность <i>всех трех</i> попаданий равна <span class="disp_formula"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>0</mn><mo>&#x0002C;</mo><mn>5</mn><mi>&#x000B7;</mi><mn>0</mn><mo>&#x0002C;</mo><mn>6</mn><mi>&#x000B7;</mi><mn>0</mn><mo>&#x0002C;</mo><mn>8</mn><mo>&#x0003D;</mo><mn>0</mn><mo>&#x0002C;</mo><mn>24</mn><mo>&#x0002C;</mo></mrow></math></p> а вероятность сбить при этом самолет равна <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>0</mn><mo>&#x0002C;</mo><mn>24</mn><mi>&#x000B7;</mi><mn>1</mn><mo>&#x0003D;</mo><mn>0</mn><mo>&#x0002C;</mo><mn>24</mn><mo>&#x0002E;</mo></mrow></math></p>
+
+<p>Суммируя вероятности в этих трех несовместных случаях, получим:
+<span class="disp_formula"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>P</mi><mo>&#x0003D;</mo><mn>0</mn><mo>&#x0002C;</mo><mn>078</mn><mo>&#x0002B;</mo><mn>0</mn><mo>&#x0002C;</mo><mn>276</mn><mo>&#x0002B;</mo><mn>0</mn><mo>&#x0002C;</mo><mn>24</mn><mo>&#x0003D;</mo><mn>0</mn><mo>&#x0002C;</mo><mn>594</mn><mo>&#x0002E;</mo></mrow></math></p></p>
+
+<p><i>Ответ:</i> 0,594.</details></p>
+
+
+</body>
+</html>
